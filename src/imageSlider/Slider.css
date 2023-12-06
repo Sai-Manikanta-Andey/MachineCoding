@@ -1,0 +1,34 @@
+.slides-container {
+    
+    width: 500px;
+    height: 300px;
+    /* Set the height to match your image height */
+}
+
+.image-container {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+  
+    position: relative;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.arrow {
+    margin: 1rem;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.image {
+    border-radius: 8px;
+    object-fit: cover;
+    width: 500px;
+    height: 300px;
+}
+
