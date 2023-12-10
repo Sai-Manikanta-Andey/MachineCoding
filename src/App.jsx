@@ -1,11 +1,13 @@
 import React from 'react'
-import Slider from './imageSlider/Slider'
+import Slider from './components/imageSlider/Slider'
+import Accordian from './components/Accordian/Accordian'
 
 
 const App = () => {
   return (
     <div >
-      <Slider/>
+      {/* <Slider/> */}
+      <Accordian/>
     </div>
   )
 }
